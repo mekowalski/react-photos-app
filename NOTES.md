@@ -10,7 +10,3 @@ eg: typing a term in the search bar
   - will handle the typing event
 [] Create PhotoList Component responsible for rendering a list of photos on the screen
 [] Will still have an App Component(most root)
-
-APP
--- | --
-SearchBar | PhotoList
