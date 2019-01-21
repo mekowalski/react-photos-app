@@ -6,11 +6,13 @@ eg: typing a term in the search bar
 3. How to render the list onto the browser display
 
 # What Components to create?
-[] Create SearchBar Component responsible for just showing text at top of screen
+[x] Create SearchBar Component responsible for just showing text at top of screen
   - will handle the typing event
 [] Create PhotoList Component responsible for rendering a list of photos on the screen
-[] Will still have an App Component(most root)
+[x] Will still have an App Component(most root)
 
 - A couple of different Components will end up in the App Component
 - Those different Components will have different CSS files
 - Will not define App Component in `index.js`, it will be created in a Component file under /components
+
+[] Add a touch of styling to the input search bar with semantic ui

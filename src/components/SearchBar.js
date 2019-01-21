@@ -5,7 +5,11 @@ import React from 'react';
 class SearchBar extends React.Component {
   render() {
     return (
-      <div>This is the search bar</div>
+      <div>
+        <form>
+          <input type='text' />
+        </form>
+      </div>
     );
   }
 }
