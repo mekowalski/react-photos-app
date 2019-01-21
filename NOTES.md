@@ -13,3 +13,4 @@ eg: typing a term in the search bar
 
 - A couple of different Components will end up in the App Component
 - Those different Components will have different CSS files
+- Will not define App Component in `index.js`, it will be created in a Component file under /components
