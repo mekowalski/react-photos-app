@@ -3,9 +3,11 @@ import React from 'react';
 //class-based Component because State is needed here
 //State is the term that will be typed and searched in the search bar
 class SearchBar extends React.Component {
-  onInputChange() {
-    //called anytime a user changes the text in the input
-
+  onInputChange(event) {
+    //event is JS object, usually one argument inside the entire function
+    //that event argument is the text value that will be typed
+    // event.target.value
+    console.log(event.target.value)
   }
 
   render() {
