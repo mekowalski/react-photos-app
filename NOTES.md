@@ -15,4 +15,7 @@ eg: typing a term in the search bar
 - Those different Components will have different CSS files
 - Will not define App Component in `index.js`, it will be created in a Component file under /components
 
-[] Add a touch of styling to the input search bar with semantic ui
+[x] Add a touch of styling to the input search bar with semantic ui
+
+# Functionality
+- How to handle user input in the search bar
