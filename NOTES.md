@@ -21,6 +21,7 @@ eg: typing a term in the search bar
 - How to handle user input in the search bar
 - Different event Property names
 eg:
+
 EVENT | PropertyName
 -- | --
 CLICK | onClick
