@@ -1,12 +1,12 @@
 import React from 'react';
 
-//class-based Component because State is needed here
-//State is the term that will be typed and searched in the search bar
 class SearchBar extends React.Component {
   onInputChange(event) {
-    // event.target.value
     console.log(event.target.value)
   }
+  //name of function is convention of: on + name of element with CB assignment + event to watch for
+  //ie: onInputChange
+  //this is called on <input> being changed
 
   render() {
     return (
@@ -15,7 +15,6 @@ class SearchBar extends React.Component {
           <div className='field'>
             <label>Photo Search</label>
             <input type='text' onChange={this.onInputChange} />
-            //onChange is a special Property name, different events have different prop names
           </div>
         </form>
       </div>
