@@ -19,3 +19,10 @@ eg: typing a term in the search bar
 
 # Functionality
 - How to handle user input in the search bar
+- Different event Property names
+eg:
+EVENT | PropertyName
+-- | --
+CLICK | onClick
+CHANGE | onChange
+SUBMIT | onSubmit
