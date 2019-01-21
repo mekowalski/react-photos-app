@@ -11,6 +11,6 @@ eg: typing a term in the search bar
 [] Create PhotoList Component responsible for rendering a list of photos on the screen
 [] Will still have an App Component(most root)
 
-| APP |
+APP |
 -- | --
-| SearchBar | PhotoList |
+SearchBar | PhotoList
