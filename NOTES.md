@@ -13,4 +13,4 @@ eg: typing a term in the search bar
 
 | APP |
 -- | --
-SearchBar | PhotoList
+| SearchBar | PhotoList |
