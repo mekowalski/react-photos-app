@@ -4,3 +4,13 @@ eg: typing a term in the search bar
 2. Once search term is retrieved, how to use that term to make a request to an external API
 - Use a free API to match the search term and return the results
 3. How to render the list onto the browser display
+
+# What Components to create?
+[] Create SearchBar Component responsible for just showing text at top of screen
+  - will handle the typing event
+[] Create PhotoList Component responsible for rendering a list of photos on the screen
+[] Will still have an App Component(most root)
+
+| APP |
+-- | --
+SearchBar | PhotoList
