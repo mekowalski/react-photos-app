@@ -10,3 +10,6 @@ eg: typing a term in the search bar
   - will handle the typing event
 [] Create PhotoList Component responsible for rendering a list of photos on the screen
 [] Will still have an App Component(most root)
+
+- A couple of different Components will end up in the App Component
+- Those different Components will have different CSS files
