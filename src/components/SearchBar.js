@@ -3,10 +3,7 @@ import React from 'react';
 class SearchBar extends React.Component {
   state = { term: '' };
 
-  //Another way to solve issue
-  //Turn function into and arrow => function
-  //ES6 arrow function automatically binds this for all code inside function
-  onFormSubmit = (event) => {
+  onFormSubmit(event) {
     event.preventDefault()
     console.log(this.state.term)
   }
@@ -14,9 +11,9 @@ class SearchBar extends React.Component {
   render() {
     return (
       <div className='ui segment'>
-        <form onSubmit={this.onFormSubmit} className='ui form'>
-        //look at where the method is called(here) what is this on the left of .(dot?)
-        //there is no SearchBar.onFormSubmit
+        <form onSubmit={(event) => this.onFormSubmit(event)} className='ui form'>
+        //third way to solve issue
+        //pass an arrow function directly into the onSubmit props
           <div className='field'>
             <label>Photo Search</label>
             <input
