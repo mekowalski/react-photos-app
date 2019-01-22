@@ -1,17 +1,12 @@
 import React from 'react';
 
 class SearchBar extends React.Component {
-  //Can define constructor()with super, inside Component
-  //ONE way to solve
-  //define the constructor, bind the function and overwrite the existing one
-  constructor() {
-    super()
-    this.onSubmit = this.onFormSubmit.bind(this)
-
-  }
   state = { term: '' };
 
-  onFormSubmit(event) {
+  //Another way to solve issue
+  //Turn function into and arrow => function
+  //ES6 arrow function automatically binds this for all code inside function
+  onFormSubmit = (event) => {
     event.preventDefault()
     console.log(this.state.term)
   }
