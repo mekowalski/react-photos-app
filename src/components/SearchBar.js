@@ -12,6 +12,8 @@ class SearchBar extends React.Component {
     return (
       <div className='ui segment'>
         <form onSubmit={this.onFormSubmit} className='ui form'>
+        //look at where the method is called(here) what is this on the left of .(dot?)
+        //there is no SearchBar.onFormSubmit
           <div className='field'>
             <label>Photo Search</label>
             <input
