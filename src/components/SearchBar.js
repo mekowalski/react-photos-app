@@ -14,7 +14,6 @@ class SearchBar extends React.Component {
               value={this.state.term}
               onChange={(e) => this.setState({term: e.target.value})}
             />
-            //this is now a controlled element
           </div>
         </form>
       </div>
