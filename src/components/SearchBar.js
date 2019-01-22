@@ -1,12 +1,7 @@
 import React from 'react';
 
 class SearchBar extends React.Component {
-  onInputChange(event) {
-    console.log(event.target.value)
-  }
-  //name of function is convention of: on + name of element with CB assignment + event to watch for
-  //ie: onInputChange
-  //this is called on <input> being changed
+  state = { term: '' };
 
   render() {
     return (
@@ -14,7 +9,11 @@ class SearchBar extends React.Component {
         <form className='ui form'>
           <div className='field'>
             <label>Photo Search</label>
-            <input type='text' onChange={this.onInputChange} />
+            <input type='text' value={this.state.term} onChange={(e) => this.setState({term: e.target.value})} />
+            //INPUT IS UNCONTROLLED
+            //Why is State being used
+            //Why is State updating when input is changed
+            //Why is value being passed back into the input
           </div>
         </form>
       </div>
