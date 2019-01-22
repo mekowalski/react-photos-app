@@ -9,11 +9,12 @@ class SearchBar extends React.Component {
         <form className='ui form'>
           <div className='field'>
             <label>Photo Search</label>
-            <input type='text' value={this.state.term} onChange={(e) => this.setState({term: e.target.value})} />
-            //INPUT IS UNCONTROLLED
-            //Why is State being used
-            //Why is State updating when input is changed
-            //Why is value being passed back into the input
+            <input
+              type='text'
+              value={this.state.term}
+              onChange={(e) => this.setState({term: e.target.value})}
+            />
+            //this is now a controlled element
           </div>
         </form>
       </div>
