@@ -3,10 +3,16 @@ import React from 'react';
 class SearchBar extends React.Component {
   state = { term: '' };
 
+  //need to disable default behavior
+  onFormSubmit(event) {
+    event.preventDefault()
+    console.log('prevent default worked')
+  }
+
   render() {
     return (
       <div className='ui segment'>
-        <form className='ui form'>
+        <form onSubmit={this.onFormSubmit} className='ui form'>
           <div className='field'>
             <label>Photo Search</label>
             <input
