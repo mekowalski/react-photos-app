@@ -27,3 +27,8 @@ EVENT | PropertyName
 CLICK | onClick
 CHANGE | onChange
 SUBMIT | onSubmit
+
+# Trigger Search
+- After user presses enter key from typing in the search bar, trigger search
+[] Detect when user presses enter key
+- Show images on the screen
