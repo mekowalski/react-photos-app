@@ -42,3 +42,6 @@ SUBMIT | onSubmit
 - PROPs system allows info to be passed down from Parent to Child(ren)
 
 [] When user hits enter, fetch images
+[] Turn App Component to class-based Component
+[] In App define CB name onSearchSubmit, passed down to SearchBar
+  - User submitted the form? Better call the CB to tell App(this.onSearchSubmit)
