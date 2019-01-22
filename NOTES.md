@@ -32,4 +32,4 @@ SUBMIT | onSubmit
 - After user presses enter key from typing in the search bar, trigger search
 - Show images on the screen
 
-[] Detect when user presses enter key
+[x] Detect when user presses enter key

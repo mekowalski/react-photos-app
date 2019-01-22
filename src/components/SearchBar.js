@@ -3,10 +3,9 @@ import React from 'react';
 class SearchBar extends React.Component {
   state = { term: '' };
 
-  //need to disable default behavior
   onFormSubmit(event) {
     event.preventDefault()
-    console.log('prevent default worked')
+    console.log(this.state.term)
   }
 
   render() {
