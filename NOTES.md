@@ -33,3 +33,12 @@ SUBMIT | onSubmit
 - Show images on the screen
 
 [x] Detect when user presses enter key
+
+# API Request and Attempt Fetch
+- SearchBar Component isn't responsible to make fetch request
+- App Component should make API request and get list of images
+- Take search term and pass it back up to the App Component
+- Where to initiate to attempt fetching images
+- PROPs system allows info to be passed down from Parent to Child(ren)
+
+[] When user hits enter, fetch images

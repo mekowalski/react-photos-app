@@ -3,7 +3,7 @@ import React from 'react';
 class SearchBar extends React.Component {
   state = { term: '' };
 
-  onFormSubmit(event) {
+  onFormSubmit = event => {
     event.preventDefault()
     console.log(this.state.term)
   }
@@ -11,9 +11,7 @@ class SearchBar extends React.Component {
   render() {
     return (
       <div className='ui segment'>
-        <form onSubmit={(event) => this.onFormSubmit(event)} className='ui form'>
-        //third way to solve issue
-        //pass an arrow function directly into the onSubmit props
+        <form onSubmit={this.onFormSubmit} className='ui form'>
           <div className='field'>
             <label>Photo Search</label>
             <input
