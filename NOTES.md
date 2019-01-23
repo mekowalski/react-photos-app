@@ -41,8 +41,13 @@ SUBMIT | onSubmit
 - Where to initiate to attempt fetching images
 - PROPs system allows info to be passed down from Parent to Child(ren)
 
-[] When user hits enter, fetch images
+[x] When user hits enter, fetch images
 [x] Turn App Component to class-based Component
 [x] In App define CB name onSearchSubmit, passed down to SearchBar
   - User submitted the form? Better call the CB to tell App(this.onSearchSubmit)
-[] Reference Prop to Child component
+[x] Reference Prop to Child component
+
+#Fetch Data
+- The application is running inside the user's browser
+- Enter search term and hit enter, make AJAX/Network request to an API
+- 
