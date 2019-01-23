@@ -11,8 +11,9 @@ class App extends React.Component {
   render() {
     return (
       <div className='ui container' style={{marginTop: '10px'}}>
-      //pass down callback() as a prop to SearchBar
+      {//pass down callback() as a prop to SearchBar
       //keep naming similar to function
+      }
       <SearchBar onSubmit={this.onSearchSubmit}/>
       </div>
     );
