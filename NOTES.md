@@ -52,7 +52,6 @@ SUBMIT | onSubmit
 - Enter search term and hit enter, make AJAX/Network request to an API
 - Issue network request from Photos application
 
-
 [x] Implement Axios
 [x] Modify onSearchSubmit to call Axios function
 [x] Use Axios and Unsplash doc to make request to API
@@ -60,7 +59,6 @@ SUBMIT | onSubmit
 [] How to get data out of request
 [] Render list of images
 [x] Short-term goal: app will display the number of photos fetched
-
 
 1. Component renders itself one time with no photos list
 2. onSearchSubmit method called
@@ -71,6 +69,6 @@ SUBMIT | onSubmit
 6. App Component re-renders and shows photos!
 
 # SET STATE AFTER ASYNC Request
--
+- After getting response, set it on App Component State
 
 [] Add State in App Component/initialize
