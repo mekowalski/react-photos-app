@@ -5,10 +5,6 @@ class SearchBar extends React.Component {
 
   onFormSubmit = event => {
     event.preventDefault()
-
-    //call onSearchSubmit prop
-    //inside SearchBar component, reference a prop with the name of the prop
-    //call the function passed in onSubmit and invoke it with this.state.term
     this.props.onSubmit(this.state.term)
   }
 
@@ -16,8 +12,6 @@ class SearchBar extends React.Component {
     return (
       <div className='ui segment'>
         <form onSubmit={this.onFormSubmit} className='ui form'>
-        {//when use sumbits a form, run onFormSubmit
-        }
           <div className='field'>
             <label>Photo Search</label>
             <input
