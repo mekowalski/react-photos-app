@@ -50,4 +50,4 @@ SUBMIT | onSubmit
 #Fetch Data
 - The application is running inside the user's browser
 - Enter search term and hit enter, make AJAX/Network request to an API
-- 
+- Issue network request from Photos application
