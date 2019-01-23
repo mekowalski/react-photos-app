@@ -8,9 +8,12 @@ class App extends React.Component {
       params: { query: term },
       headers: {
         Authorization: 'Client-ID cd676e1ef029ce061d3722b47bc05267297569b249b49306547aa9fb1de2213e'
-      } //add on number of headers on request made on API
-    });
-  }//nothing is being done with returned data, in DevTools Network, 2 requests will be made
+      }
+    })
+    .then((response) => {
+      console.log(response.data.results) //returns an arry of objects that represent 1 distinct photo
+    })
+  }
 
   render() {
     return (
