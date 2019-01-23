@@ -58,7 +58,7 @@ SUBMIT | onSubmit
 [x] Console log some images
 [] How to get data out of request
 [] Render list of images
-[] Short-term goal: app will display the number of photos fetched
+[x] Short-term goal: app will display the number of photos fetched
 
 1. Component renders itself one time with no photos list
 2. onSearchSubmit method called
