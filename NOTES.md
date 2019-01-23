@@ -58,3 +58,11 @@ SUBMIT | onSubmit
 [x] Console log some images
 [] How to get data out of request
 [] Render list of images
+
+1. Component renders itself one time with no photos list
+2. onSearchSubmit method called
+3. Request made to Unsplash
+---WAIT---
+4. Request is complete
+5. Set photo data on State of App Component
+6. App Component re-renders and shows photos!
