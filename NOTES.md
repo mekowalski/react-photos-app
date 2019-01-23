@@ -53,6 +53,8 @@ SUBMIT | onSubmit
 - Issue network request from Photos application
 
 [x] Implement Axios
-[] Modify onSearchSubmit to call Axios function
-[] Use Axios and Unsplash doc to make request to API
-[] Console log some images
+[x] Modify onSearchSubmit to call Axios function
+[x] Use Axios and Unsplash doc to make request to API
+[x] Console log some images
+[] How to get data out of request
+[] Render list of images
