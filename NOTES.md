@@ -52,5 +52,7 @@ SUBMIT | onSubmit
 - Enter search term and hit enter, make AJAX/Network request to an API
 - Issue network request from Photos application
 
-[] Implement Axios
-[] Modify onSearchSubmit to call Axios funtion
+[x] Implement Axios
+[] Modify onSearchSubmit to call Axios function
+[] Use Axios and Unsplash doc to make request to API
+[] Console log some images
