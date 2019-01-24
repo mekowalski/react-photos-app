@@ -76,4 +76,5 @@ SUBMIT | onSubmit
 [x] Code cleanup around Axios code, remove configuration from App Component
 
 # PhotoList Component
-[] Create PhotoList Component to render out all the photos that were just fetched
+[x] Create PhotoList Component
+[] Call PhotoList in order to render out the photos that were fetched(communicate)

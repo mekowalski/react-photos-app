@@ -1,6 +1,7 @@
 import React from 'react';
 
-const PhotoList = () => {
+const PhotoList = props => {
+  console.log(props.photos)
   return <div>Photo List</div>
 }
 
