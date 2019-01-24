@@ -8,7 +8,7 @@ eg: typing a term in the search bar
 # What Components to create?
 [x] Create SearchBar Component responsible for just showing text at top of screen
   - will handle the typing event
-[] Create PhotoList Component responsible for rendering a list of photos on the screen
+[x] Create PhotoList Component responsible for rendering a list of photos on the screen
 [x] Will still have an App Component(most root)
 
 - A couple of different Components will end up in the App Component
@@ -56,8 +56,8 @@ SUBMIT | onSubmit
 [x] Modify onSearchSubmit to call Axios function
 [x] Use Axios and Unsplash doc to make request to API
 [x] Console log some images
-[] How to get data out of request
-[] Render list of images
+[x] How to get data out of request
+[x] Render list of images
 [x] Short-term goal: app will display the number of photos fetched
 
 1. Component renders itself one time with no photos list
