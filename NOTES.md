@@ -71,4 +71,5 @@ SUBMIT | onSubmit
 # SET STATE AFTER ASYNC Request
 - After getting response, set it on App Component State
 
-[] Add State in App Component/initialize
+[x] Add State in App Component/initialize
+[] Fix TypeError with 1 of 3 methods
