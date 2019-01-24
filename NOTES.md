@@ -77,5 +77,7 @@ SUBMIT | onSubmit
 
 # PhotoList Component
 [x] Create PhotoList Component
-[] Call PhotoList in order to render out the photos that were fetched(communicate)
-[] Loop over all the photos from the returned array and return Brand New Component
+[x] Call PhotoList in order to render out the photos that were fetched(communicate)
+[x] Loop over all the photos from the returned array and return Brand New Component
+
+- woohoo!!!!!! the searched photos are returned!!!!!!
