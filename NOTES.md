@@ -73,4 +73,7 @@ SUBMIT | onSubmit
 
 [x] Add State in App Component/initialize
 [x] Fix TypeError with 1 of 3 methods
-[] Code cleanup around Axios code, remove configuration from App Component
+[x] Code cleanup around Axios code, remove configuration from App Component
+
+# PhotoList Component
+[] Create PhotoList Component to render out all the photos that were just fetched
