@@ -2,11 +2,12 @@ import React from 'react';
 
 const PhotoList = props => {
   const photos = props.photos.map((photo) => {
-    return <img key={photo.id} src={photo.urls.regular} />
+    return <img alt={photo.description} key={photo.id} src={photo.urls.regular} />
     {
-      //find root JSX tag(<img>, it could be <div>) that is being returned from map statement(the img)
-      //give img a key= prop
-      //id is given from API in the photo object
+      //create-react-app would like an alt prop(description of image shown on screen)
+      //in case photo cannot be fetched
+      //or if someone with accessibility issues is using the app
+      //fortunately the photo objects returned have a description property attached
     }
   });
     return <div>{photos}</div>;
