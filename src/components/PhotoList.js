@@ -1,13 +1,12 @@
 import React from 'react';
 
 const PhotoList = props => {
-  const photos = props.photos.map((photo) => {
-    return <img alt={photo.description} key={photo.id} src={photo.urls.regular} />
+  const photos = props.photos.map(({ description, id, urls }) => {
+    return <img alt={description} key={id} src={regular} />
     {
-      //create-react-app would like an alt prop(description of image shown on screen)
-      //in case photo cannot be fetched
-      //or if someone with accessibility issues is using the app
-      //fortunately the photo objects returned have a description property attached
+      //photo is referenced 3 times(L5)
+      //destructure out the 3 properties inside the inner function(description, id and urls)
+      //L4: holy moly!!!! i know what this is now and how it works!!!!
     }
   });
     return <div>{photos}</div>;
