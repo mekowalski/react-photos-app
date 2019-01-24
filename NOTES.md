@@ -73,4 +73,4 @@ SUBMIT | onSubmit
 
 [x] Add State in App Component/initialize
 [x] Fix TypeError with 1 of 3 methods
-[] Code cleanup around Axios code
+[] Code cleanup around Axios code, remove configuration from App Component
