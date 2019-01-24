@@ -5,8 +5,6 @@ import SearchBar from './SearchBar';
 class App extends React.Component {
   state = { photos: [] };
 
-  //Solve TypeError issue with ES6 arrow function
-  //define the =>(), mark it as async and assign it to an instance property
   onSearchSubmit = async term => {
     const response = await axios
     .get('https://api.unsplash.com/search/photos', {

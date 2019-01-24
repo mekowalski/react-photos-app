@@ -72,4 +72,5 @@ SUBMIT | onSubmit
 - After getting response, set it on App Component State
 
 [x] Add State in App Component/initialize
-[] Fix TypeError with 1 of 3 methods
+[x] Fix TypeError with 1 of 3 methods
+[] Code cleanup around Axios code
