@@ -81,3 +81,8 @@ SUBMIT | onSubmit
 [x] Loop over all the photos from the returned array and return Brand New Component
 
 - woohoo!!!!!! the searched photos are returned!!!!!!
+
+# Version 2
+[] Show reasonably sized photos, currently the photos are too large
+[] Use Grid CSS
+[] Tile the shown photos
