@@ -83,6 +83,7 @@ SUBMIT | onSubmit
 - woohoo!!!!!! the searched photos are returned!!!!!!
 
 # Version 2
-[] Show reasonably sized photos, currently the photos are too large
-[] Use Grid CSS
-[] Tile the shown photos
+[x] Show reasonably sized photos, currently the photos are too large
+[x] Use Grid CSS
+[x] Tile the shown photos
+[] Make images a bit more cohesive
