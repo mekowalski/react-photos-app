@@ -6,16 +6,16 @@ eg: typing a term in the search bar
 3. How to render the list onto the browser display
 
 # What Components to create?
-[x] Create SearchBar Component responsible for just showing text at top of screen
+- [x] Create SearchBar Component responsible for just showing text at top of screen
   - will handle the typing event
-[x] Create PhotoList Component responsible for rendering a list of photos on the screen
-[x] Will still have an App Component(most root)
+- [x] Create PhotoList Component responsible for rendering a list of photos on the screen
+- [x] Will still have an App Component(most root)
 
 - A couple of different Components will end up in the App Component
 - Those different Components will have different CSS files
 - Will not define App Component in `index.js`, it will be created in a Component file under /components
 
-[x] Add a touch of styling to the input search bar with semantic ui
+- [x] Add a touch of styling to the input search bar with semantic ui
 
 # Functionality
 - How to handle user input in the search bar
@@ -32,7 +32,7 @@ SUBMIT | onSubmit
 - After user presses enter key from typing in the search bar, trigger search
 - Show images on the screen
 
-[x] Detect when user presses enter key
+- [x] Detect when user presses enter key
 
 # API Request and Attempt Fetch
 - SearchBar Component isn't responsible to make fetch request
@@ -41,24 +41,24 @@ SUBMIT | onSubmit
 - Where to initiate to attempt fetching images
 - PROPs system allows info to be passed down from Parent to Child(ren)
 
-[x] When user hits enter, fetch images
-[x] Turn App Component to class-based Component
-[x] In App define CB name onSearchSubmit, passed down to SearchBar
+- [x] When user hits enter, fetch images
+- [x] Turn App Component to class-based Component
+- [x] In App define CB name onSearchSubmit, passed down to SearchBar
   - User submitted the form? Better call the CB to tell App(this.onSearchSubmit)
-[x] Reference Prop to Child component
+- [x] Reference Prop to Child component
 
 #Fetch Data
 - The application is running inside the user's browser
 - Enter search term and hit enter, make AJAX/Network request to an API
 - Issue network request from Photos application
 
-[x] Implement Axios
-[x] Modify onSearchSubmit to call Axios function
-[x] Use Axios and Unsplash doc to make request to API
-[x] Console log some images
-[x] How to get data out of request
-[x] Render list of images
-[x] Short-term goal: app will display the number of photos fetched
+- [x] Implement Axios
+- [x] Modify onSearchSubmit to call Axios function
+- [x] Use Axios and Unsplash doc to make request to API
+- [x] Console log some images
+- [x] How to get data out of request
+- [x] Render list of images
+- [x] Short-term goal: app will display the number of photos fetched
 
 1. Component renders itself one time with no photos list
 2. onSearchSubmit method called
@@ -71,19 +71,19 @@ SUBMIT | onSubmit
 # SET STATE AFTER ASYNC Request
 - After getting response, set it on App Component State
 
-[x] Add State in App Component/initialize
-[x] Fix TypeError with 1 of 3 methods
-[x] Code cleanup around Axios code, remove configuration from App Component
+- [x] Add State in App Component/initialize
+- [x] Fix TypeError with 1 of 3 methods
+- [x] Code cleanup around Axios code, remove configuration from App Component
 
 # PhotoList Component
-[x] Create PhotoList Component
-[x] Call PhotoList in order to render out the photos that were fetched(communicate)
-[x] Loop over all the photos from the returned array and return Brand New Component
+- [x] Create PhotoList Component
+- [x] Call PhotoList in order to render out the photos that were fetched(communicate)
+- [x] Loop over all the photos from the returned array and return Brand New Component
 
 - woohoo!!!!!! the searched photos are returned!!!!!!
 
 # Version 2
-[x] Show reasonably sized photos, currently the photos are too large
-[x] Use Grid CSS
-[x] Tile the shown photos
-[] Make images a bit more cohesive, the photos shouldn't have weird spacing but should be more closely fitted
+- [x] Show reasonably sized photos, currently the photos are too large
+- [x] Use Grid CSS
+- [x] Tile the shown photos
+- [] Make images a bit more cohesive, the photos shouldn't have weird spacing but should be more closely fitted
