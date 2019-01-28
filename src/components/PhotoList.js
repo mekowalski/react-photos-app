@@ -1,6 +1,6 @@
 import './PhotoList.css';
 import React from 'react';
-import PhotoCard form './PhotoCard';
+import PhotoCard from './PhotoCard';
 
 const PhotoList = props => {
   {

@@ -3,16 +3,14 @@ import React from 'react';
 
 class PhotoCard extends React.Component {
   render() {
+    {
+      //photo object(L12-13) will be referred many times
+      //destructure out the props
+    }
+    const { description, urls } = this.props.photo;
     return (
       <div>
-      {
-        //specify alt and src prop
-        //Assume Photo object is passed to the PhotoCard as a prop called photo
-      }
-        <img
-          alt={this.props.photo.description}
-          src={this.props.photo.urls.regular}
-        />
+        <img alt={description} src={urls.regular} />
       </div>
     );
   }
