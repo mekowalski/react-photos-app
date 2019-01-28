@@ -19,9 +19,9 @@ Kowalski, are you there?
   - Communicating from Child to Parent and invoking callbacks in Children
   - So far, different styling with Grid CSS/CSS and JS/React
 
-  - A few things that do not work in the App:
-    - 012819
-    - Currently the Photos App will return only 10 photos(I'm working on that)
-    - Currently the photos returned have spacing issues(also being worked on)
-    - There isn't much of a utilization app, it's meant to return data from an external API
-    - A user will only be able to search for photos to be returned and will get a display
+- A few things that do not work in the App:
+  - 012819
+  - Currently the Photos App will return only 10 photos(I'm working on that)
+  - Currently the photos returned have spacing issues(also being worked on)
+  - There isn't much of a utilization app, it's meant to return data from an external API
+  - A user will only be able to search for photos to be returned and will get a display
