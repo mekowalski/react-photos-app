@@ -1,12 +1,15 @@
 import React from 'react';
-//this Component just shoes a div with a photo inside of it
 
+//define constructor for creating refs
+//call React.createRef() and assign it to an instance variable
 class PhotoCard extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.photoRef = React.createRef();
+  }
+
   render() {
-    {
-      //photo object(L12-13) will be referred many times
-      //destructure out the props
-    }
     const { description, urls } = this.props.photo;
     return (
       <div>
