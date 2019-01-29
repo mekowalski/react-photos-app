@@ -12,8 +12,15 @@ class PhotoCard extends React.Component {
 
   //define componentDidMount()
   componentDidMount() {
+    console.log(this.photoRef);
     console.log(this.photoRef.current.clientHeight);
-    //some search terms return the height while others dont. wth?
+    //chrome console is extremely 'fancy'
+    //when ref is printed out, console does not yet know what data is inside the img
+    //the console only knows the height once the img object is expanded and current: img is expanded
+    //THEN chrome looks at that DOM node, pulls info and prints it on the console
+    //when component first renders, the next second, the height of the image is printed out
+    //although the img has not yet loaded, therefore there is NO image
+    //this is about an order of operations
   }
 
   render() {
