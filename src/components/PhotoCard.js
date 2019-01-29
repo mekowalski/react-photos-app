@@ -10,12 +10,17 @@ class PhotoCard extends React.Component {
     this.photoRef = React.createRef();
   }
 
+  //define componentDidMount()
+  componentDidMount() {
+    console.log(this.photoRef);
+  }
+
   render() {
     const { description, urls } = this.props.photo;
     return (
       <div>
-        <img alt={description} src={urls.regular} />
-      </div>
+        <img ref={this.photoRef} alt={description} src={urls.regular} />
+      </div> //ref will tell a bit about the img DOM node, ref is a JSX tag, not a DOM element
     );
   }
 }
