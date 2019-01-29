@@ -1,7 +1,8 @@
 import React from 'react';
 
 //define constructor for creating refs
-//call React.createRef() and assign it to an instance variable
+//call React.createRef() and assign it to an instance variable, so that the variable can be referred later
+//on inside the class
 class PhotoCard extends React.Component {
   constructor(props) {
     super(props)
