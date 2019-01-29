@@ -6,6 +6,7 @@
 
 - Use `grid-row-end:` rule but first need to specify the `grid-row-end` value depending on height of each individual photo
 - [x] Create new React Component for rendering one photo at a time
-- [] Which will figure out the size of the image and adjust the `grid-row-end`
-- [] Create ref inside PhotoCard Component
-- [] Reach into DOM and figure out the height of individual photo
+- [x] Which will figure out the size of the image and adjust the `grid-row-end`
+- [x] Create ref inside PhotoCard Component
+- [x] Reach into DOM and figure out the height of individual photo
+- [] Calculate how many `grid-row-end` units, set it on the State, feed it into the style of `img` tag
