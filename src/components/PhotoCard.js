@@ -12,7 +12,8 @@ class PhotoCard extends React.Component {
 
   //define componentDidMount()
   componentDidMount() {
-    console.log(this.photoRef);
+    console.log(this.photoRef.current.clientHeight);
+    //some search terms return the height while others dont. wth?
   }
 
   render() {
@@ -21,6 +22,8 @@ class PhotoCard extends React.Component {
       <div>
         <img ref={this.photoRef} alt={description} src={urls.regular} />
       </div> //ref will tell a bit about the img DOM node, ref is a JSX tag, not a DOM element
+      //ref itself is a JS object that has a curent property referencing the DOM node
+      //in console can see the img tag and its clientHeight
     );
   }
 }
