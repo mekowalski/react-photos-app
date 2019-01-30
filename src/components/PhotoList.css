@@ -5,6 +5,9 @@
   grid-auto-rows: 300px;
 }
 
+/* grid-row-end: span 2, or whatever number you want, will allocate that amount of cells worth for that
+specific photo */
+
 .photo-list img {
   width: 250px;
 }

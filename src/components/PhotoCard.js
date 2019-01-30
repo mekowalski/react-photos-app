@@ -1,33 +1,35 @@
 import React from 'react';
 
-//define constructor for creating refs
-//call React.createRef() and assign it to an instance variable, so that the variable can be referred later
-//on inside the class
 class PhotoCard extends React.Component {
   constructor(props) {
     super(props)
+    this.state = { spans: 0 }
 
     this.photoRef = React.createRef();
   }
 
-  //define componentDidMount()
-  //access the height ONLY after it becomes available
-  //add a basic, plain, vanilla, js event listener
-  //2nd arg will be a cb()
   componentDidMount() {
     this.photoRef.current.addEventListener('load', this.setSpans);
   }
 
-  //the ultimate prop inside is the 'grid-row-end' property that takes units of spans
-  //when the height is retrieved it will be used to set the span value
+  //assign height to variable
+  //then get number of spans the photo requires
   setSpans = () => {
-    console.log(this.photoRef.current.clientHeight);
+    const height = this.photoRef.current.clientHeight;
+
+    //take height and divide it by the grid-row-end pixels(300) and add 1 to make sure if the photo needs
+    //a portion of the row, it wll be rounded up(going to the next highest row)
+    //ceil to cap the value
+    const spans = Math.ceil(height / 300);
+
+    this.setState({ spans: spans });
   }
 
   render() {
     const { description, urls } = this.props.photo;
     return (
-      <div>
+      // take spans value and assign it to the div as a style
+      <div style={{ gridRowEnd: `span ${this.state.spans}` }}>
         <img ref={this.photoRef} alt={description} src={urls.regular} />
       </div>
     );
