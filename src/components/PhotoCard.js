@@ -20,7 +20,8 @@ class PhotoCard extends React.Component {
     //take height and divide it by the grid-row-end pixels(300) and add 1 to make sure if the photo needs
     //a portion of the row, it wll be rounded up(going to the next highest row)
     //ceil to cap the value
-    const spans = Math.ceil(height / 300);
+    //each photo will now take up far more spans than before but that is completely fine
+    const spans = Math.ceil(height / 15);
 
     this.setState({ spans: spans });
   }
