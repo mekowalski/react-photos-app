@@ -5,14 +5,6 @@
   grid-auto-rows: 9px;
 }
 
-/* grid-row-end: span 2, or whatever number you want, will allocate that amount of cells worth for that
-specific photo */
-/* pixels for grid-auto-rows is chosen arbitrarily, in some cases the white space is too large. should
-possibly make the rows much smaller(10-15px). this provides fine-grade detail that doesn't allocate too
-many rows */
-/* .photo-list has grid-gap rule that allocates pixels between each cell. now that rows is smaller, the
-grid-gap pixel essentially doubles the amount of white space needed */
-
 .photo-list img {
   width: 250px;
 }
