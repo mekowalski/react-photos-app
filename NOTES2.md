@@ -30,3 +30,8 @@
   2. Ref used to reach into DOM and interact with some element
   3. Create Ref inside constructor and wire it up to an element by passing it as a ref property
   4. Later on access that ref and get a handle on the DOM node
+
+- Grid CSS System
+  1. Grid CSS is not completely required
+  2. Extremely new and still undergoing changes
+  3. Good excuse on how to figure out how to use Ref system
