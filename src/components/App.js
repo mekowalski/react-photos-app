@@ -8,7 +8,7 @@ class App extends React.Component {
 
   onSearchSubmit = async term => {
     const response = await unsplash
-    .get('/search/photos', {
+    .get('/search/photos', { //unsplash defaults to providing only 10 photos in return per_page
       params: { query: term }
     });
     this.setState({ photos: response.data.results });
