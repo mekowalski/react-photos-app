@@ -24,3 +24,9 @@
 - PhotoList: Render photos, a list of photos
   1. Map function, whenever rendering a list, probably will reach for Map function
   2. Any time a list is made, define a `key` on the root element of that list that is consistent and unchanging
+
+- PhotoCard: React Ref system
+  1. Intro to Ref system
+  2. Ref used to reach into DOM and interact with some element
+  3. Create Ref inside constructor and wire it up to an element by passing it as a ref property
+  4. Later on access that ref and get a handle on the DOM node
