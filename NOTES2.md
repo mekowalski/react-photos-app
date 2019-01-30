@@ -10,3 +10,11 @@
 - [x] Create ref inside PhotoCard Component
 - [x] Reach into DOM and figure out the height of individual photo
 - [x] Calculate how many `grid-row-end` units, set it on the State, feed it into the style of `img` tag
+
+
+# App Review
+- SearchBar: Event Handlers
+  1. With an event handler, take an input/form tag
+  2. Pass a callback() to a specifically named props(<form onSubmit={this.onFormSubmit}, etc)
+  3. When that tag/element emits event, that callback() will be called
+  - Rule to keep in mind: anytime there is a cb(), be safe to use ES6 =>() syntax, which will bind the function and have the appropriate value of `this`
