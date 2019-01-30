@@ -21,7 +21,7 @@ class PhotoCard extends React.Component {
     //a portion of the row, it wll be rounded up(going to the next highest row)
     //ceil to cap the value
     //each photo will now take up far more spans than before but that is completely fine
-    const spans = Math.ceil(height / 15);
+    const spans = Math.ceil(height / 9);
 
     this.setState({ spans: spans });
   }
